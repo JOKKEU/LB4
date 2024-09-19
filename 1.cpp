@@ -20,7 +20,7 @@ struct Node* CreateTree(struct Node* root, struct Node* r, int data)
 		r = (struct Node*)malloc(sizeof(struct Node));
 		if (r == NULL)
 		{
-			printf("Ошибка выделения памяти");
+			printf("ГЋГёГЁГЎГЄГ  ГўГ»Г¤ГҐГ«ГҐГ­ГЁГї ГЇГ Г¬ГїГІГЁ");
 			exit(0);
 		}
 
@@ -81,14 +81,14 @@ int main()
 	int D, start = 1;
 
 	root = NULL;
-	printf("-1 - окончание построения дерева\n");
+	printf("-1 - Г®ГЄГ®Г­Г·Г Г­ГЁГҐ ГЇГ®Г±ГІГ°Г®ГҐГ­ГЁГї Г¤ГҐГ°ГҐГўГ \n");
 	while (start)
 	{
-		printf("Введите число: ");
+		printf("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®: ");
 		scanf_s("%d", &D);
 		if (D == -1)
 		{
-			printf("Построение дерева окончено\n\n");
+			printf("ГЏГ®Г±ГІГ°Г®ГҐГ­ГЁГҐ Г¤ГҐГ°ГҐГўГ  Г®ГЄГ®Г­Г·ГҐГ­Г®\n\n");
 			start = 0;
 		}
 		else
@@ -98,7 +98,7 @@ int main()
 
 	print_tree(root, 0);
 
-	std::cout << "Введите число для поска: ";
+	std::cout << "Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г® Г¤Г«Гї ГЇГ®Г±ГЄГ : ";
 	int value;
 	std::cin >> value;
 	std::cout << std::endl;
